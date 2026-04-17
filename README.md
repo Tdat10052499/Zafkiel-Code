@@ -1,44 +1,45 @@
-# Zafkiel-Code - AI-Powered Cinematic Component Generator
+# Zafkiel-Code - AI-Powered Component Generator
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18.x-61DAFB.svg?logo=react)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC.svg?logo=tailwind-css)
+![Ant Design](https://img.shields.io/badge/Ant_Design-5.x-0170FE.svg?logo=ant-design)
 ![Celo](https://img.shields.io/badge/Built_on-Celo-35D07F.svg)
 
-**Zafkiel-Code** is a lightweight, Web3-integrated Mini App designed to manipulate time for developers by instantly generating high-quality, "Cinematic" React components via AI text prompts. Built specifically for the MiniPay ecosystem, it introduces a seamless micro-transaction model for cutting-edge AI tools.
+**Zafkiel-Code** is an enterprise-grade, Web3-integrated Mini App designed to manipulate time for developers. It instantly generates high-quality, "Cinematic" React components via AI text prompts and renders them in real-time. Built to showcase the power of the MiniPay ecosystem, it introduces a frictionless micro-transaction model for cutting-edge AI developer tools.
 
 ## Overview
 
-Developers and designers often need quick UI scaffolding that goes beyond standard, flat designs. Zafkiel-Code solves this by generating code optimized for a specific aesthetic: **Dark themes, minimalist structures, and high-end glassmorphism (Liquid Glass)**, accented with an elegant Crimson and Gold color palette. 
+Developers often waste hours scaffolding UI components. Zafkiel-Code solves this by generating ready-to-use code optimized for a specific aesthetic: **Enterprise dashboards infused with high-end glassmorphism (Liquid Glass)**, accented by an elegant Crimson and Gold color palette. 
 
-Instead of expensive monthly subscriptions, Zafkiel-Code leverages the Celo blockchain via **MiniPay** to offer a pay-per-use model. Users pay a micro-fee (e.g., 0.05 cUSD) per generation, saving hours of coding time for fractions of a cent.
+Instead of expensive monthly AI subscriptions, Zafkiel-Code leverages the Celo blockchain via **MiniPay**. Users pay a micro-fee (0.05 cUSD) per generation. Through Cross-device WalletConnect, users can seamlessly build on their desktop while confirming payments on their mobile MiniPay wallet.
 
 ## Key Features
 
-- **Prompt-to-Code:** Generate ready-to-use React + Tailwind CSS components from simple text descriptions in seconds.
-- **Cinematic Aesthetic By Default:** All generated code adheres to an elegant, high-contrast dark mode with glassmorphism effects.
-- **Web3 Micro-transactions:** Seamless payment flow integrated directly with the Opera MiniPay wallet. Sub-cent gas fees powered by the Celo network.
-- **Frictionless UX:** No login, no credit cards. Connect your MiniPay wallet, enter a prompt, pay, and get your code.
+- **Prompt-to-Code Generation:** Generate fully functional React + Tailwind CSS components from simple text descriptions in seconds.
+- **Enterprise Dashboard Aesthetic:** Built on Ant Design and customized with Tailwind CSS for a sleek, dark-themed, and highly professional layout.
+- **Real-Time Live Preview:** Powered by `react-live`, generated code is instantly compiled and rendered on a split-screen canvas. Users can tweak the code and see UI changes instantly.
+- **Cross-Device Web3 Payments:** Desktop-first workflow. Connect via QR code and approve sub-cent transactions directly from the Opera MiniPay app on your phone.
 
 ## Tech Stack
 
-- **Frontend:** React, Vite, Tailwind CSS (Custom configured for Elegant typography and Liquid Glass effects).
-- **Web3 / Payments:** MiniPay SDK, Celo Blockchain (cUSD).
-- **AI / LLM:** OpenAI API / Gemini API (For real-time code generation logic).
+- **Frontend:** React, Vite, Ant Design (Enterprise UI Components), Tailwind CSS (Glassmorphism & Utility styling), `react-live` (Live rendering).
+- **Web3 / Payments:** WalletConnect, MiniPay Provider, Celo Blockchain (cUSD).
+- **AI / LLM:** OpenAI API / Gemini API (For real-time React code generation).
 - **Typography:** Cormorant Garamond (Headings), JetBrains Mono (Code Blocks).
 
 ## How It Works
 
-1. **Input:** The user types a UI requirement (e.g., "A pricing card with a glowing crimson border").
-2. **Transaction:** The app requests a 0.05 cUSD payment via the MiniPay provider.
-3. **Verification & Generation:** Once the smart contract transaction is confirmed, the backend triggers the LLM with a strictly defined System Prompt.
-4. **Output:** The rendered code is displayed in a sleek, copyable code block.
+1. **Connect:** The user opens the Desktop app and scans the WalletConnect QR code using their MiniPay mobile app.
+2. **Input:** The user types a UI requirement into the dashboard (e.g., "A pricing card with a glowing crimson border").
+3. **Cross-Device Transaction:** The app triggers a 0.05 cUSD payment request. A confirmation pop-up instantly appears on the user's phone.
+4. **Generation & Preview:** Once the smart contract transaction is confirmed, the AI generates the component. The Desktop UI splits into an Editor and a Live Preview canvas, displaying the actual working component.
 
 ## Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
-- A MiniPay Wallet (installed via Opera Mini) on your mobile device for testing.
+- A MiniPay Wallet (installed via Opera Mini) on your mobile device.
 
 ### Installation
 
